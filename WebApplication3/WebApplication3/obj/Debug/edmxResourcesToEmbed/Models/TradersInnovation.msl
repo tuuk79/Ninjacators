@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NinjacatorsModelStoreContainer" CdmEntityContainer="NinjacatorsEntities">
+    <EntitySetMapping Name="AccessTokens">
+      <EntityTypeMapping TypeName="NinjacatorsModel.AccessToken">
+        <MappingFragment StoreEntitySet="AccessToken">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="access_token" ColumnName="access_token" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EventKeys">
+      <EntityTypeMapping TypeName="NinjacatorsModel.EventKey">
+        <MappingFragment StoreEntitySet="EventKey">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="event_key" ColumnName="event_key" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HookSecrets">
+      <EntityTypeMapping TypeName="NinjacatorsModel.HookSecret">
+        <MappingFragment StoreEntitySet="HookSecret">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="x_hook_secret" ColumnName="x_hook_secret" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReferringActions">
+      <EntityTypeMapping TypeName="NinjacatorsModel.ReferringAction">
+        <MappingFragment StoreEntitySet="ReferringAction">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="referring_action" ColumnName="referring_action" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
